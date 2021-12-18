@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="250dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:layout_height="160dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/ic_reservation_icon_29765"
+            android:text="Reservation"
+            app:backgroundTint="#F3E6E6" />
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/ic_contact_us_icon_dark"
+            android:text="Contact Us"
+            android:textColor="@color/black"
+            app:backgroundTint="#F3E6E6" />
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:drawableTop="@drawable/ic_ratess"
+            android:text="Rates"
+            app:backgroundTint="#F3E6E6" />
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:drawableTop="@drawable/ic_facilities"
+            android:text="Facilities"
+            app:backgroundTint="#F3E6E6" />
+
+        <Button
+            android:id="@+id/Button5"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:drawableTop="@drawable/ic_galery"
+            android:text="Gallery"
+            app:backgroundTint="#F3E6E6" />
+
+        <Button
+            android:id="@+id/Button6"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:drawableTop="@drawable/ic_loc"
+            android:text="Address"
+            app:backgroundTint="#F3E6E6" />
+    </GridLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+</ScrollView>
